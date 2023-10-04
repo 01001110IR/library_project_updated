@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from books.model import Book,db
+from model import Book,db
 
 app = Flask(__name__)
 CORS(app, origins="http://127.0.0.1:5501")
